@@ -9,7 +9,7 @@ public class ArrayCalculationsTest {
     public static int[][] arr2 = {{21, -4, 89}, {65, 33, 1}, {8, 3, 99}, {-2, 3, 1}};
     public static int[][] arr3 = {{5, 19, 3, -6}, {12, 2, -4, 0}, {11, -9, 1, 1}, {-13, -8, 3, -6}};
 
-/*
+
     @Test
     public void rowSumBadHigh() {
         assertEquals(-1, ArrayCalculations.rowSum(arr, 4));
@@ -25,7 +25,7 @@ public class ArrayCalculationsTest {
         assertEquals(23, ArrayCalculations.rowSum(arr, 1));
 
     }
-*/
+
     @Test
     public void columnSum() {
         assertEquals(190, ArrayCalculations.columnSum(arr2, 2));
@@ -40,7 +40,7 @@ public class ArrayCalculationsTest {
     public void columnSumBadHigh() {
         assertEquals(-1, ArrayCalculations.columnSum(arr2, arr2.length));
     }
-/*
+
     @Test
     public void diagonalSumUp() {
         assertEquals(-32, ArrayCalculations.diagonalSum(arr3, 1));
@@ -55,5 +55,5 @@ public class ArrayCalculationsTest {
     public void diagonalSumBad() {
         assertEquals(-1, ArrayCalculations.diagonalSum(arr3, 3));
     }
-*/
+
 }
