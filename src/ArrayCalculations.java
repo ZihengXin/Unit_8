@@ -2,7 +2,6 @@ public class ArrayCalculations {
     public static int rowSum(int[][] arr, int row) {
         // create a variable to keep track of the total
         int total = 0;
-
         // check to see if the given row variable is valid.
     // If the row is less than 0 or is greater than
         // the number of rows it is not valid. Return -1 if not valid.

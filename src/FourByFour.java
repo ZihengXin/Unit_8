@@ -39,6 +39,7 @@ int[][] list = new int [4][4];
         list[3][2] = -7;
         list[3][3] = -7;
 //code to output a blank line separating output sets
+
 System.out.println();
 //code to output all array elements
         System.out.println(list[0][0]);

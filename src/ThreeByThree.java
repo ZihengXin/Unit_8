@@ -5,7 +5,6 @@ public class ThreeByThree {
 //2D array size 3x3
 
         double [][] list = new double[3][3];
-
 //code to output all original values
         System.out.println(list[0][0]);
         System.out.println(list[0][1]);

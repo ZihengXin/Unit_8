@@ -34,5 +34,4 @@ public class TwoDArraysTest {
         int[][] arr = {{-21, -4, -89}, {-65, -33, -1}, {-8, -3, -99}, {-2, -3, -1}};
         assertEquals(-1, TwoDArrays.maxValue(arr));
     }
-
 }
